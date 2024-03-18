@@ -1,0 +1,29 @@
+INFO:root:Establishing connection to SFTP.
+INFO:paramiko.transport:Connected (version 2.0, client 8.1.0.0_openssh)
+INFO:paramiko.transport:Auth banner: b'GfK Group FTP Service'
+INFO:paramiko.transport:Authentication (password) successful!
+INFO:paramiko.transport.sftp:[chan 0] Opened sftp connection (server version 3)
+INFO:root:Connection established.
+INFO:root:Starting download
+INFO:root:Successfully downloaded GfK_Singapore_Pilot_Compliance_2023_05_19.zip
+INFO:paramiko.transport.sftp:[chan 0] sftp session closed.
+INFO:root:Unzip the downloaded file(s)
+INFO:root:Successfully extracted GfK_Singapore_Pilot_Compliance_2023_05_19.zip to D:/SGTAM_DP/Working Project/InApp/data/GfK_Singapore_Pilot_Daily_Compliance_2023_05_19.csv
+INFO:root:Check if the usage file is empty by checking filesize equals 0?
+INFO:root:No empty usage file, proceeding with data import
+
+INFO:root:Connecting to SGTAMProdOIP
+INFO:root:Connected to SGTAMProdOIP
+INFO:root:Creating dataframe from GfK_Singapore_Pilot_Daily_Compliance_2023_05_19.csv
+INFO:root:Going to add ref_date and import_date columns into the dataframe
+INFO:root:Added additional 'ref_date' column to the 1st position in the dataframe
+INFO:root:Added additional 'import_date' column to the 2nd position in the dataframe
+INFO:root:Import data into tRealityMineCompliance
+INFO:root:Data imported
+INFO:root:SQL connection closed.
+INFO:root:Removed - D:/SGTAM_DP/Working Project/InApp/data/GfK_Singapore_Pilot_Compliance_2023_05_19.zip
+INFO:root:Archived - D:/SGTAM_DP/Working Project/InApp/data/GfK_Singapore_Pilot_Daily_Compliance_2023_05_19.csv
+INFO:root:Task Completed!
+INFO:root:Sending email.
+INFO:root:Email sent.
+INFO:root:Entered finally clause, process ends here.

@@ -1,0 +1,15 @@
+INFO:root:Connect to Atlas FTP
+INFO:root:Connected to FTP.
+INFO:root:Downloaded latest file AtlasFullyRealityMine-2023051010562354.csv to D:\SGTAM_DP\Working Project\InApp\data\AtlasFullyRealityMine.csv with new filename AtlasFullyRealityMine.csv.
+INFO:root:Connecting to SGTAMProdOIP
+INFO:root:Connected to SGTAMProdOIP
+INFO:root:Creating dataframe from exported file from Atlas
+INFO:root:Added additional 'Data_Import_Datetime' column to the 2nd position in the dataframe
+INFO:root:Truncate tRealityMineAtlas for the incoming data import
+INFO:root:Import data into tRealityMineAtlas
+INFO:root:Data imported
+INFO:root:Archive the downloaded file into archvied folder
+INFO:root:Task Completed!
+INFO:root:Sending email.
+INFO:root:Email sent.
+INFO:root:Finally clause completed.

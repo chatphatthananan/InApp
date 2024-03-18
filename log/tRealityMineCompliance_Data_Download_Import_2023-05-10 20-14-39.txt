@@ -1,0 +1,39 @@
+INFO:root:Establishing connection to SFTP.
+INFO:paramiko.transport:Connected (version 2.0, client 1.82_sshlib)
+INFO:paramiko.transport:Auth banner: b'GfK Group FTP Service'
+INFO:paramiko.transport:Authentication (password) successful!
+INFO:paramiko.transport.sftp:[chan 0] Opened sftp connection (server version 3)
+INFO:root:Connection established.
+INFO:root:Starting download
+INFO:root:Successfully downloaded GfK_Singapore_Pilot_Compliance_2023_05_09.zip
+INFO:root:Successfully downloaded GfK_Singapore_Pilot_Compliance_2023_05_10.zip
+INFO:paramiko.transport.sftp:[chan 0] sftp session closed.
+INFO:root:Unzip the downloaded file(s)
+INFO:root:Successfully extracted GfK_Singapore_Pilot_Compliance_2023_05_09.zip to D:/SGTAM_DP/Working Project/InApp/data/GfK_Singapore_Pilot_Daily_Compliance_2023_05_09.csv
+INFO:root:Successfully extracted GfK_Singapore_Pilot_Compliance_2023_05_10.zip to D:/SGTAM_DP/Working Project/InApp/data/GfK_Singapore_Pilot_Daily_Compliance_2023_05_10.csv
+INFO:root:Connecting to SGTAMProdOIP
+INFO:root:Connected to SGTAMProdOIP
+INFO:root:Creating dataframe from GfK_Singapore_Pilot_Daily_Compliance_2023_05_09.csv
+INFO:root:Going to add ref_date and import_date columns into the dataframe
+INFO:root:Added additional 'ref_date' column to the 1st position in the dataframe
+INFO:root:Added additional 'import_date' column to the 2nd position in the dataframe
+INFO:root:Import data into tRealityMineComplianceTest
+INFO:root:Data imported
+INFO:root:SQL connection closed.
+INFO:root:Connecting to SGTAMProdOIP
+INFO:root:Connected to SGTAMProdOIP
+INFO:root:Creating dataframe from GfK_Singapore_Pilot_Daily_Compliance_2023_05_10.csv
+INFO:root:Going to add ref_date and import_date columns into the dataframe
+INFO:root:Added additional 'ref_date' column to the 1st position in the dataframe
+INFO:root:Added additional 'import_date' column to the 2nd position in the dataframe
+INFO:root:Import data into tRealityMineComplianceTest
+INFO:root:Data imported
+INFO:root:SQL connection closed.
+INFO:root:Removed - D:/SGTAM_DP/Working Project/InApp/data/GfK_Singapore_Pilot_Compliance_2023_05_09.zip
+INFO:root:Archived - D:/SGTAM_DP/Working Project/InApp/data/GfK_Singapore_Pilot_Daily_Compliance_2023_05_09.csv
+INFO:root:Removed - D:/SGTAM_DP/Working Project/InApp/data/GfK_Singapore_Pilot_Compliance_2023_05_10.zip
+INFO:root:Archived - D:/SGTAM_DP/Working Project/InApp/data/GfK_Singapore_Pilot_Daily_Compliance_2023_05_10.csv
+INFO:root:Task Completed!
+INFO:root:Sending email.
+INFO:root:Email sent.
+INFO:root:Finally clause completed.

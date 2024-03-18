@@ -1,0 +1,13 @@
+INFO:root:Establishing connection to SFTP.
+INFO:paramiko.transport:Connected (version 2.0, client 8.1.0.0_openssh)
+INFO:paramiko.transport:Auth banner: b'GfK Group FTP Service'
+INFO:paramiko.transport:Authentication (password) successful!
+INFO:paramiko.transport.sftp:[chan 0] Opened sftp connection (server version 3)
+INFO:root:Connection established.
+INFO:root:Starting download
+INFO:root:Error downloading GfK_Singapore_Pilot_Compliance_2023_05_18.zip: [Errno 2] No such file
+INFO:paramiko.transport.sftp:[chan 0] sftp session closed.
+INFO:root:Error downloading GfK_Singapore_Pilot_Compliance_2023_05_18.zip: [Errno 2] No such file
+INFO:root:Sending error email.
+INFO:root:Email sent.
+INFO:root:Finally clause completed.
